@@ -17,7 +17,7 @@ class Computador():
 			print("El equipo está en ejecución")
 
 	def estado(self):
-		print(self.marca,self.procesador,self.mouse,self.teclado)
+		print("La marca de PC",self.marca,"tiene un procesador",self.procesador,", cuenta con",self.mouse,"mouse y",self.teclado, "teclado")
 		
 pc = Computador()
 
